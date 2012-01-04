@@ -61,3 +61,12 @@ match RedundantSpaces /\s\+$\| \+\ze\t\|\t/
 " :make % will do syntax check and auto save
 set makeprg=php\ -l\ %
 set autowrite
+
+" comment shortcut
+vmap \c :s!^!//!<CR>
+vmap \u :s!^//!!<CR>
+
+"source ~/.vim/plugin/php-doc.vim
+"inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i
+"nnoremap <C-P> :call PhpDocSingle()<CR>
+"vnoremap <C-P> :call PhpDocRange()<CR>
