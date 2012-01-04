@@ -14,8 +14,8 @@ set hlsearch " Highlight matches.
 set title " Set the terminal's title
 set visualbell " No beeping.
 set bk                                                              "backup, just incase
-set backupdir=/home/mrf/.vim/tmp/backups/                      "where to put those backups
-set directory=/home/mrf/.vim/tmp/backups/                      "this is for swp files
+set backupdir=/home/username/.vim/tmp/backups/                      "where to put those backups
+set directory=/home/username/.vim/tmp/backups/                      "this is for swp files
 " Make tabs and buffers play nice
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
